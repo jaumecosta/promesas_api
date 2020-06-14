@@ -9,7 +9,7 @@ const PERSONAJE = ":id";
 const personaje_rick = () => {
     let xhttp = new XMLHttpRequest();
     xhttp.open("GET", API + PERSONAJE.replace(":id", 2), true); // recoje INFORMACION DE API cambia la id por el numero
-    xhttp.send();
+    xhttp.send(); //envia la informacion
     xhttp.onreadystatechange = function() {
         return new Promise((resolve, reject) => {
                 if (xhttp.status === 200) { 
