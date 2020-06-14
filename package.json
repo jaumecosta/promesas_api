@@ -1,0 +1,18 @@
+{
+  "name": "rick_morty",
+  "version": "1.0.0",
+  "description": "Promesas con Rick y Morty",
+  "main": "src/index.js",
+  "scripts": {
+    "promesas": "node src/promesas/index.js"
+  },
+  "keywords": [
+    "promesas",
+    "api"
+  ],
+  "author": "Jaume Costa",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
